@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/output.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mario Pizzaria melhor pizza do Mundo!</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7502205409869967"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class=" h-[400px] bg-home bg-cover bg-center">
+        <div class=" w-full h-full flex flex-col justify-center items-center ">
+            <img class="w-[300px] " src="./assets/IMG_7854.PNG" alt="imagem.pizza.logo"/>
+        </div>
+    </header>
+    <h2 class="text-2xl font-bold text-center mt-9 mb-3 md:text-3xl">
+        Conheça nosso Menu!
+    </h2>
+    <div class="flex px-5 mr-5 font-bold text-xl gap-5 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
+        <a href="#bordas" class="text-green-800">Bordas</a>
+        <a href="#pizzas" class="text-green-800">Pizzas</a>
+        <a href="#pizzas doces" class=" text-green-800"><div class="flex gap-1"><div>Pizzas</div><div>doces</div></div></a>
+        <a class="text-green-800" href="#bebidas">Bebidas</a>
+        <a class="text-green-800" href="#anuncio">Anúncio</a>
+    </div>
+    <div id="menu">
+        <h2 id="pizzas" class="text-2xl font-bold ml-3 mt-3 mb-2 md:text-3xl">
+            Pizzas
+        </h2>
+        <main class="grid grid-cols-1 gap-4 md:grid-cols-2 mx-auto max-w-7xl md:gap-10 px-1 ">
+            <div class="flex justify-between gap-2 ">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7821.jpg" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">PAULISTA GOURMET</p>
+                        <p class="text-xs">
+                        Molho de tomate,
+                        bacon,pepperoni,salsisha,
+                        champignon,mascarpone,
+                        tomate,majericão e queijo. 
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 ">
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full  add-to-cart-btn"
+                        data-name="PAULISTA GOURMET S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="PAULISTA GOURMET M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="PAULISTA GOURMET L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="PAULISTA GOURMET ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7820.jpg" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">FRANGO COM CATUPIRY</p>
+                        <p class="text-xs">
+                            Molho de tomate,orégano,frango,
+                            catupiry e queijo.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="FRANGO C/ CATUPIRY S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="FRANGO C/ CATUPIRY M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="FRANGO C/ CATUPIRY L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-3 rounded-full text-sm add-to-cart-btn"
+                        data-name="FRANGO C/ CATUPIRY  ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7855.jpg" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">CALABRESA</p>
+                        <p class="text-xs">
+                            Molho de tomate,orégano,cebola,
+                            calabresa fatiada e queijo.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="CALABRESA S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="CALABRESA M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="CALABRESA L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-3 rounded-full text-sm add-to-cart-btn"
+                        data-name="CALABRESA  ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7856.jpg" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">TOSCANA</p>
+                        <p class="text-xs">
+                            Molho de tomate,orégano,cebola,
+                            calabresa moida,tomate picado e queijo.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="TOSCANA S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="TOSCANA M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="TOSCANA L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-3 rounded-full text-sm add-to-cart-btn"
+                        data-name="TOSCANA  ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+            
+        </main>
+        <h2 id="pizzas doces" class="text-2xl font-bold ml-3 mt-3 mb-2 md:text-3xl">
+            Pizzas doces
+        </h2>
+        <main class="grid grid-cols-1 gap-4 md:grid-cols-2 mx-auto max-w-7xl md:gap-10 px-1 ">
+            <div class="flex justify-between gap-2 ">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7857.JPG" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">BRIGADEIRO</p>
+                        <p class="text-xs">
+                        Creme de chocolate,morangos e chocolate granulado.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 ">
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full  add-to-cart-btn"
+                        data-name="BRIGADEIRO S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="BRIGADEIRO M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="BRIGADEIRO L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="BRIGADEIRO ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7858.JPG" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">ROMEU E JULIETA</p>
+                        <p class="text-xs">
+                            Goiabada e queijo.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="ROMEU E JULIETA S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="ROMEU E JULIETA M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="ROMEU E JULIETA L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-3 rounded-full text-sm add-to-cart-btn"
+                        data-name="ROMEU E JULIETA  ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7859.JPG" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">TUTTI-FRUTTI</p>
+                        <p class="text-xs">
+                            Creme doce,coquetel de frutas,queijo e canela.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="TUTTI-FRUTTI S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="TUTTI-FRUTTI M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="TUTTI-FRUTTI L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-3 rounded-full text-sm add-to-cart-btn"
+                        data-name="TUTTI-FRUTTI  ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7860.JPG" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">ABACAXI</p>
+                        <p class="text-xs">
+                            Creme doce,abacaxi e canela.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="ABACAXI S"
+                        data-price="59.90">
+                        SR$59,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="ABACAXI M"
+                        data-price="72.90">
+                        MR$72,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 rounded-full text-sm add-to-cart-btn"
+                        data-name="ABACAXI L"
+                        data-price="84.90">
+                        LR$84,90
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-3 rounded-full text-sm add-to-cart-btn"
+                        data-name="ABACAXI  ½"
+                        data-price="42.90">
+                        ½R$42,90
+                    </button>
+                </div>
+            </div>
+            
+        </main>
+        <h2 id="bordas" class="text-2xl font-bold ml-3 mt-3 mb-2 md:text-3xl">
+            Bordas
+        </h2>
+        <main class="grid grid-cols-1 gap-4 md:grid-cols-2 mx-auto max-w-7xl md:gap-10 px-1 ">
+            <div class="flex justify-between gap-2 ">
+                <div class="flex gap-2" >
+                    <img src="./assets/IMG_7861.JPG" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div >
+                        <p class="font-bold ">BORDAS</p>
+                        
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 ">
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full  add-to-cart-btn"
+                        data-name="BORDA REGULAR"
+                        data-price="05.96">
+                        REGULAR
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="BORDA CATUPIRY"
+                        data-price="05.97">
+                        CATUPIRY
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="BORDA CHEDDAR"
+                        data-price="05.98">
+                        CHEDDAR
+                    </button>
+                    <button 
+                        class="bg-green-500/85 px-4 text-sm rounded-full add-to-cart-btn"
+                        data-name="BORDA SALSICHA"
+                        data-price="05.99">
+                        SALSICHA
+                    </button>
+                </div>
+            </div>
+            
+            
+        </main>
+        <h2 id="bebidas" class=" bebidas text-2xl font-bold ml-3 mt-3 mb-2 md:text-3xl">
+            Bebidas
+        </h2>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 mx-auto mb-20 max-w-7xl md:gap-10 px-1 ">
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/coca-cala.jpeg" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div>
+                        <p class="font-bold ">COCA-COLA</p>
+                        <p class="text-xs">COCA-COLA(2L)</p>
+                    </div>
+                </div>
+                <div >
+                    <button 
+                        class="bg-green-500/85 px-5 rounded-full text-sm add-to-cart-btn"
+                        data-name="COCA-COLA(2L)"
+                        data-price="12.90">
+                        R$12,90
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-between gap-2">
+                <div class="flex gap-2" >
+                    <img src="./assets/guarana.png" alt="FRANGO COM CATUPIRY" class=" w-[80px] h-[110px] rounded-md object-cover"/>
+                    <div>
+                        <p class="font-bold ">GUARANÁ</p>
+                        <p class="text-xs">GUARANÁ(2L)</p>
+                    </div>
+                </div>
+                <div >
+                    <button 
+                        class="bg-green-500/85 px-5 rounded-full text-sm add-to-cart-btn"
+                        data-name="GUARANÁ(2L)"
+                        data-price="14.99">
+                        R$14,99
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="anuncio" class="grid grid-cols-1 gap-4 md:grid-cols-2 mx-auto mb-20 max-w-7xl md:gap-10 px-1 ">
+        <a href="https://amzn.to/3N268G6" target="_blank">anúncio<img
+            src="./assets/primevideo-seo-logo.png" alt="icone de link de suporte">
+        </a>
+        <a href="https://amzn.to/3N268G6" target="_blank">anúncio<img
+            src="./assets/primevideo-seo-logo.png" alt="icone de link de suporte">
+        </a>
+    </div>
+
+    <div  class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] hidden items-center justify-end " id="cart-modal">
+        <div class="bg-white p-5 rounded-l-2xl min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl">Meu carrinho</h2>
+            <div id="cart-items" class="flex justify-between mb-2 flex-col "></div>
+            <p class="text-green-800 text-xl font-bold">Total:R$ <span id="cart-total">0.00</span></p>
+            <p class="font-bold">Endereço de entrega:</p>
+            <input type="text" placeholder="Endereço/troco..." id="address" class="w-full border-2 p-1 rounded my-1">
+            <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+            
+            <div class=" flex flex-col mt-3 ">
+                <button class="font-bold bg-red-900 text-white mb-2 px-4 py-2 rounded" id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="bg-green-800 text-white px-4 py-2 rounded">finalizar pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="w-full bg-blue-100 py-4 fixed bottom-0 z-30 flex items-center justify-center">
+        <button class="flex items-center gao-2 text-green-800 font-bold" id="cart-btn" >
+            (<span class="text-4xl text-green-800" id="cart-count">0</span>)
+            Ver meu carrinho
+            <i class="fa fa-cart-plus text-4xl text-green-800"></i>
+        </button>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
